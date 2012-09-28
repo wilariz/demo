@@ -54,4 +54,28 @@ class Album
 
         return $this;
     }
+
+
+    /**
+     * [getArtista() description here]
+     *
+     * @return [type] [description]
+     */
+    public function getArtista()
+    {
+        return $this->artista;
+    }
+
+    /**
+     * [setArtista() description here]
+     *
+     * @param  [type] $artista [description]
+     * @return [class type]    $this
+     */
+    public function setArtista($artista)
+    {
+        $this->artista = $artista;
+
+        return $this;
+    }
 }
