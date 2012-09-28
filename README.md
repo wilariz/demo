@@ -1,4 +1,4 @@
-ZendSkeletonApplication
+Demo Aplicacion Zend framework 2
 =======================
 
 Introduction
@@ -17,17 +17,6 @@ The recommended way to get a working copy of this project is to clone the reposi
 and use composer to install dependencies:
 
     cd my/project/dir
-    git clone git://github.com/zendframework/ZendSkeletonApplication.git
-    cd ZendSkeletonApplication
+    git clone git://github.com/wilariz/demo.git
+    cd Demo
     php composer.phar install
-
-Using Git submodules
---------------------
-Alternatively, you can install using native git submodules:
-
-    git clone git://github.com/zendframework/ZendSkeletonApplication.git --recursive
-
-Virtual Host
-------------
-Afterwards, set up a virtual host to point to the public/ directory of the
-project and you should be ready to go!
