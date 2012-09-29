@@ -1,0 +1,19 @@
+<h3>Listado de discos</h3>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>ARTISTA</th>
+            <th>TITULO</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach ($lista as $item) : ?>
+            <tr>
+                <td><?php echo $item['id']; ?></td>
+                <td><?php echo $item['artista']; ?></td>
+                <td><?php echo $item['titulo']; ?></td>
+            </tr>
+        <?php endforeach; ?>
+    </tbody>
+</table>
